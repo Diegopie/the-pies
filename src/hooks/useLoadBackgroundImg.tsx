@@ -5,12 +5,19 @@ interface IUseLoadBackgroundImgProps {
   loadingImgPath: string
 }
 
+type LoadBackgroundImgReturnType = [
+  string, // loadingImgPath
+  string, // backgroundImg
+  string, // smallBackImg
+  React.Dispatch<React.SetStateAction<string>> // setSmallBackImg
+];
+
 export type ImgState = {
   stateValue: string,
   setState: (arg: string) => string | void
 }
 
-const useLoadBackgroundImg = (props: IUseLoadBackgroundImgProps) => {
+const useLoadBackgroundImg = (props: IUseLoadBackgroundImgProps): LoadBackgroundImgReturnType => {
 
   // * Destructure Props
   const { imgClass, loadingImgPath } = props;
