@@ -2,6 +2,7 @@ import useLoadBackgroundImg from "../../hooks/useLoadBackgroundImg";
 import './Cover.css';
 
 
+
 const Cover = () => {
 
 

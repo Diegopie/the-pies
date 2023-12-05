@@ -6,8 +6,6 @@ interface ILinkCardProps {
 
 const LinksCards = (props: ILinkCardProps) => {
 
-  const { link, img, title } = props;
-
   return(
     <article>
         <a className="LinksCards-Container" href={props.link} target="_blank">
