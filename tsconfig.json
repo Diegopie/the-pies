@@ -11,12 +11,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "emitDeclarationOnly": false,
-    "noEmit": false,
+    "noEmit": true,
     "jsx": "react-jsx",
 
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
+    "allowImportingTsExtensions": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
