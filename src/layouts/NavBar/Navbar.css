@@ -1,0 +1,15 @@
+.Navbar-Container {
+  background-color: var(--backgroundColor);
+  height: 5rem;
+  width: 100%;
+}
+
+.Nav-Content {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.Navbar-LogoImg {
+  height: 4.8rem;
+}

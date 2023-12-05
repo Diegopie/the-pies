@@ -1,0 +1,45 @@
+:root {
+  --backgroundColor: whitesmoke;
+  --fontColor-typeA: #F7941D
+}
+
+.App-SectionBreak {
+  margin-top: 0.8rem;
+}
+
+.App-BackgroundImg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #5C5DB8;
+}
+
+.App-Loading-Img {
+  height: 0px;
+  opacity: 0;
+}
+
+
+.App-backImg-Pulse::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: pulse 2s infinite;
+  background-color: white;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.01;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

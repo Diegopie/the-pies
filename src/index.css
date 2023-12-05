@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #5C5DB8;
+}
+
+.App-Ephesis {
+  font-family: 'Ephesis', cursive;
+}
+
+.App-Calligraffitti { 
+  font-family: 'Calligraffitti', cursive;
+}
+
+.App-PTSerif {
+  font-family: 'PT Serif', serif;
+}
+
+.App-Tangerine {
+font-family: 'Tangerine', cursive;
+}
+
+.App-Brush-Script {
+  font-family: "Brush Script MT", cursive;
+  color: var(--fontColor-typeA)
+}

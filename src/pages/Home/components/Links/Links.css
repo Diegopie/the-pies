@@ -1,0 +1,29 @@
+.Links-Container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;  
+  gap: 2.5rem;
+  padding: 2.5rem;
+  background-color: var(--backgroundColor);
+}
+
+
+.LinksCards-Container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 16rem;
+  padding: 2rem 1.3rem 2rem 1.3rem;
+  border-radius: 10px;
+  background-color: #FFFBF1;
+  color: var(--fontColor-typeA);
+  border: solid;
+  border-color: rgba(112, 128, 144, 0.44);
+}
+
+.LinksCards-Img {
+  height: 12rem;
+  border-radius: 90px;
+}

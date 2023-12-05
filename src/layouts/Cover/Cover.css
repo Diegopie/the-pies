@@ -1,0 +1,21 @@
+.Cover-BackgroundImg {
+  background-image: url("/img/cover/cover.jpg");
+  min-height: 28rem;
+  padding: 2rem;
+}
+
+.Cover-BackgroundImg-small {
+  background-image: url("/img/cover/cover-small.jpg");
+  min-height: 28rem;
+}
+
+.Cover-Tagline {
+  position: absolute;
+  font-size: min(1200px, 80px);
+  color: #A697DA;
+  bottom: min(1200px,3rem);
+  text-align: center;
+  filter: drop-shadow(2px 6px 4px #818181);
+  transition: 0.3s;
+
+}

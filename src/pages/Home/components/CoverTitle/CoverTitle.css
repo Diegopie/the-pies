@@ -1,0 +1,20 @@
+.CoverTitle-Container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1.6rem;
+  background-color: whitesmoke;
+  gap: 2.6rem 8rem;  
+}
+
+.CoverTitle-Title {
+ font-size: min(480px, 86px);;
+ text-align: center;
+ color: var(--fontColor-typeA);
+ font-weight: 600;
+}
+
+.CoverTitle-Img {
+  width: min(480px, 1000px);
+  border-radius: 16px;
+}
